@@ -56,7 +56,7 @@ $config = new Config([...], null, Config::IGNORE_DUPLICATES);
 ### Get a value
 
 ```php
-// Get a value with a fallback
+// Get a value with a fallback (optional and defaults to NULL)
 $foo = $config->get('the-key', 'fallback-value-if-key-not-found');
 
 // Get a value from a multidimentional array.
@@ -75,6 +75,6 @@ $bar = $config->get('foo.bar', 'some-fallback');
 // Using slash (/) instead
 $config = new Config([...], '/');
 
-// Or use an alternative for one single get, but passing it as the 3rd argument
+// Or use an alternative for one single get by passing it as the 3rd argument
 $config->get('foo/bar', 'fallback', '/');
 ```
