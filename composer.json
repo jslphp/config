@@ -1,0 +1,19 @@
+{
+    "name": "jsl/config",
+    "description": "A small config library",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Magnus Eriksson",
+            "email": "mange@reloop.se"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "Jsl\\Config\\": "src/"
+        }
+    },
+    "require": {}
+}
