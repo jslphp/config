@@ -39,7 +39,7 @@ $config = new Config([
 ]);
 
 // Load config files after instantiation
-$router->load([
+$config->load([
     __DIR__ . '/config3.php',
     __DIR__ . '/config4.php',
 ]);
