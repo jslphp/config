@@ -1,6 +1,6 @@
 {
     "name": "jsl/config",
-    "description": "A small config library",
+    "description": "Small convenient config library",
     "type": "library",
     "license": "MIT",
     "authors": [
